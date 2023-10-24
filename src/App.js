@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Features from "./components/Features";
 
 function App() {
   return (
     <div className="App">
+      <Features text="What sets us apart"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
